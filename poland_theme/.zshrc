@@ -1,5 +1,12 @@
+# @Author: zaba
+# @Date:   2021-02-02T20:00:46+01:00
+# @Email:  me@zaba.dev
+# @Last modified by:   zaba
+# @Last modified time: 2021-07-14T21:30:47+02:00
 # ~/.zshrc file for zsh interactive shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
+
+source ./.colors
 
 setopt autocd              # change directory just by typing its name
 #setopt correct            # auto correct mistakes
@@ -77,7 +84,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PROMPT=$'%F{%(#.white.white)}┌──${debian_chroot:+($debian_chroot)──}(%B%F{%(#.red.blue)}%n%(#.⚠️.🍺)%m%b%F{%(#.white.white)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.white.white)}]\n└─%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
+    PROMPT=$'%F{%(#.white.white)}──${debian_chroot:+($debian_chroot)──}(%B%F{%(#.red.blue)}%n%(#.⚠️.🍺)%m%b%F{%(#.white.white)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.white.white)}] %B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
     RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'
 
     # enable syntax-highlightingwhite
@@ -167,6 +174,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
     alias diff='diff --color=auto'
     alias ip='ip --color=auto'
+    alias wireshark='sudo wireshark'
 
     export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
     export LESS_TERMCAP_md=$'\E[1;36m'     # begin bold
@@ -192,4 +200,8 @@ if [ -f /usr/share/oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggesti
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
 
-PATH=$PATH:$HOME/.local/bin/
+PATH=$PATH:$HOME/.local/bin/:$HOME/.local/share/gem/ruby/3.0.0/bin
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

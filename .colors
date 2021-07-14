@@ -1,0 +1,50 @@
+# @Author: zaba
+# @Date:   2021-07-14T21:24:47+02:00
+# @Email:  me@zaba.dev
+# @Last modified by:   zaba
+# @Last modified time: 2021-07-14T21:25:49+02:00
+
+# foreground colors
+export BLACK="\033[30m"
+export RED="\033[31m"
+export GREEN="\033[32m"
+export YELLOW="\033[33m"
+export BLUE="\033[34m"
+export MAGENTA="\033[35m"
+export CYAN="\033[36m"
+export LGREY="\033[37m"
+export DGREY="\033[90m"
+export LRED="\033[91m"
+export LGREEN="\033[92m"
+export LBLUE="\033[94m"
+export LMAGENTA="\033[95m"
+export LYELLOW="\033[93m"
+export LCYAN="\033[96m"
+export WHITE="\033[97m"
+# background colors
+export BBLACK="\033[40m"
+export BRED="\033[41m"
+export BGREEN="\033[42m"
+export BYELLOW="\033[43m"
+export BBLUE="\033[44m"
+export BMAGENTA="\033[45m"
+export BCYAN="\033[46m"
+export BLGREY="\033[47m"
+export BDGREY="\033[100m"
+export BLRED="\033[101m"
+export BLGREEN="\033[102m"
+export BLBLUE="\033[104m"
+export BLMAGENTA="\033[105m"
+export BLYELLOW="\033[103m"
+export BLCYAN="\033[106m"
+export BWHITE="\033[107m"
+# text formatting
+export BOLD="\033[1m"
+export UNDERLINE="\033[4m"
+export ITALIC="\033[3m"
+export DIM="\033[2m"
+export BLINK="\033[5m"
+export REVERSE="\033[7m"
+export HIDDEN="\033[8m"
+# reset
+export ENDC="\033[0m"
