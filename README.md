@@ -1,13 +1,15 @@
-### Hello there !
+# Hello there !
 
-Hey, I'm Mathis, I'm a French student in IT.<br>
-I am currently studying network and system administration<br>
-I also learn programming in Python and C on my free time.
+### Who am I ?
 
-#### Some other things
+I'm a French IT student.<br>I study system and network administration and cyber security.<br>
 
-I speak French🇫🇷 and english🇬🇧.
+I learn cyber security and C programming on my free time.
 
-And I lean these languages :
-- 🇩🇪 German
-- 🇵🇱 Polish
+I speak French (duh) and English (TOEIC: 970), and I know basics in German and a bit of Polish.
+
+### Links and contacts
+
+* [Root-me](https://www.root-me.org/zabaaaa)
+* Email: mat44bon@outlook.fr
+* Discord: zabaaaa#4444
