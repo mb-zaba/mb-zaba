@@ -11,5 +11,5 @@ I speak French (duh) and English (TOEIC: 970), and I know basics in German and a
 ### Links and contacts
 
 * [Root-me](https://www.root-me.org/zabaaaa)
-* Email: mat44bon@outlook.fr
+* Email: me@zaba.dev
 * Discord: zabaaaa#4444
