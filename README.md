@@ -14,4 +14,4 @@ I speak French, English, and I know basics in German and a bit of Polish.
 - Email: me@zaba.dev
 - Discord: zabaaaa#4444
 
-![Some stats](https://github-readme-stats.vercel.app/api?username=mb-zaba&theme=synthwave&border_radius=8)
+![Some stats](https://github-readme-stats.vercel.app/api/top-langs/?username=mb-zaba&theme=synthwave&border_radius=8)
