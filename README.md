@@ -2,16 +2,15 @@
 
 ### Who am I ?
 
-I'm a French IT guy specialized in cybersecurity and systems administration.
+French guy in Poland who likes sysadmin stuff.
 
-I love cybersecurity, cocktails and languages.
+IT sometimes, film photo some other times, and cocktails all the time.
 
-I speak French, English, and I know basics in German and a bit of Polish.
+I speak French, English, and I know basics in German and a bit of Polish (actively learning that one).
 
 ### Links and contacts
 
-- [Root-me](https://www.root-me.org/zabaaaa)
 - Email: me@zaba.dev
-- Discord: zabaaaa#4444
+- Discord: zabaaaa
 
 ![Some stats](https://github-readme-stats.vercel.app/api/top-langs/?username=mb-zaba&theme=synthwave&border_radius=8)
